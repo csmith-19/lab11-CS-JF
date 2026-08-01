@@ -4,6 +4,10 @@ calculator.py
 
 One function per operation, in order.
 """
+# https://github.com/csmith-19/lab11-CS-JF
+# Partner 1: Charles Smith
+# Partner 2: Jaxon Forkey
+
 import math
 
 def square_root(a):
