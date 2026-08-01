@@ -7,8 +7,26 @@ One function per operation, in order.
 import math
 
 # First example
+
 def add(a, b):
     return a + b
+
+def add(a, b): 
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def logarithm(a, b):
+    if a <= 0:
+        raise ValueError
+    return math.log(b, a)
+
+def exponent(a, b):
+    return a ** b
 
 def sub(a, b):
     return a - b
